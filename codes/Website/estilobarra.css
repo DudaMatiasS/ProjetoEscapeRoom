@@ -1,0 +1,96 @@
+:root{
+    --colort: #fdfdfdff; 
+}
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    background-color:#47A79C;
+    font-family: 'Poppins', sans-serif;
+    height: 100% ;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #47A79C;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    border: 3px solid black;
+
+}
+#logo img{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+}
+#barraLogo {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#barraLogo a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    text-shadow: -0.5px 2px black;
+}
+#link1 {   
+    margin: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#link1:hover{
+    transition: 0.3s;
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+#link2 {
+    margin: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#link2:hover{
+    transition: 0.3s;
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+#link3 {
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+#link3:hover{
+    transition: 0.3s;
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.icones{
+    width: 55px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}

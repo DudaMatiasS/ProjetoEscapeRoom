@@ -1,0 +1,233 @@
+:root{
+    --colort: #fdfdfdff; 
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color:#fdfdfdff;
+    font-family: 'Poppins', sans-serif;
+    height: 100% ;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border: 0;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 25px;
+}
+
+#conteudo h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    text-shadow: -0.5px 2px  #fffafa;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/**#conteudo hr{
+    width: 550px;
+    border-color: #5A0F8C;
+    border: 2px solid #5A0F8C;
+    margin-block-start: -5px;
+    margin-block-end: 35px;
+
+}**/
+#textos{
+    display: flex;
+    align-items: column;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size:30px ;
+    margin:0;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.text p{
+    justify-content: space-between;
+    text-align: justify;
+    align-items: column;
+    margin-right: 50px;
+    margin-top: 1px;
+    margin-left:  15px;
+    
+}
+.text{
+    width: 960px;
+}
+.text li{
+    font-size: 25px;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: column;
+    margin-right: 50px;
+    margin-top: 1px;
+    margin-left:  15px;
+    
+}
+#conteudo button{
+    margin-left: 43.5%;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px;
+    border: 2 solid black;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+#conteudo button h4{
+    text-decoration: none;
+    font-size: 20px;
+    color:#5A0F8C;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+#conteudo a{
+    text-decoration: none;
+    align-items: center;
+    
+}
+#conteudo button:hover{
+    background-color:#47A79C ;
+    transition: 0.3s;
+    box-shadow:
+        1px 1px #0b64ca,
+        2px 2px #0b64ca,
+        3px 3px #0b64ca;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    border: 0;
+}
+#comojogar{
+    background-color: #47A79C;
+    text-align: center;
+    text-shadow: -0.5px 3px  black;
+}
+#comojogar h2{
+    color: #fffafa;
+    margin:0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#sobre{
+    background-color: #fffafa;
+}
+#textoSobre{
+    display: flex;
+    justify-content: space-between;
+}
+#texto{
+    margin-top: 15px;
+    
+}
+#texto h2{
+    font-weight: bold;
+    font-size:30px ;
+    margin:0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+
+}
+#texto p{
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center ;
+    margin-right: 50px;
+    margin-top: 1px;
+    margin-left:  15px;
+    margin-bottom: 1px;
+
+}
+#texto li{
+    font-size: 25px;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center ;
+    margin-right: 50px;
+    margin-top: 1px;
+    margin-left:  15px;
+    
+}
+#sobre iframe{
+
+    width: 1280;
+    height: 720;
+    margin: 0;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 10px solid #47A79C;
+    border-radius: 5%;
+}
+#creditos{
+    text-align: center;
+    text-shadow: -0.5px 3px  black;
+    background-color: #47A79C;
+}
+#creditos h2{
+    color: #fffafa ;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#instrucao{
+    justify-content: space-between;
+}
+.fotosinstrucao{
+    margin-left: 15px;
+    width: 640px;
+    height: 380px;
+    border: solid #47A79C 2px;
+    border-radius: 25px;
+
+}
+
+.fotao {
+    margin-left: 15px;
+    width: 300px;
+    height: 300px;
+    border: solid #47A79C 2px;
+    border-radius: 10%;
+}
+#textoCreditos{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 45fr 50fr;
+}
+
+.fotos {
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.fotos h3 {
+    font-weight: bold;
+}
+.fotos p {
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 75px;
+    width: 350px;
+    margin-left: 0;
+
+}
+.iconer {
+    width: 40px;
+    height: 40px;
+    padding: 15px 10px 10px 15px;
+}
+
+
